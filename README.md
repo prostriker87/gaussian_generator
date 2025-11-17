@@ -56,3 +56,4 @@ Usage:
       echo 'Promedio alto ('.$mean.'-'.$mean+($limit/2).'): '.(GaussianProbability::probabilityBetween($mean, $mean+($limit/2), $mean, $sigma)*100).'%<br>';
       echo 'Promedio óptimo ('.$mean+($limit/2).'-'.$mean+$limit.'): '.(GaussianProbability::probabilityBetween($mean+($limit/2), $mean+$limit, $mean, $sigma)*100).'%<br>';
       echo "<br>";
+    ?>
