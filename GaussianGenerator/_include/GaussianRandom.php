@@ -1,7 +1,4 @@
 <?php 
-    if(!defined($sitename)){
-        die('Acceso no autorizado.');
-    }
     class GaussianRandom {
 
         /**
@@ -28,4 +25,5 @@
             return $z0 * $sigma + $mean;
         }
     }
+
 ?>
