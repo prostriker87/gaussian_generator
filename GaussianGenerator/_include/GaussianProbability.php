@@ -1,7 +1,4 @@
 <?php
-    if(!defined($sitename)){
-        die('Acceso no autorizado.');
-    }
     class GaussianProbability {
 
         /**
@@ -62,4 +59,5 @@
             );
         }
     }
+
 ?>
