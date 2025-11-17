@@ -1,6 +1,6 @@
 <?php
-    class WeightedGaussianGenerator{
-        public static function generate(array $levels, int $N=1): array{
+    class WeightedGaussianGenerator {
+        public static function generate(array $levels, int $N=1): array {
             if ($N <= 0) {
                 return [];
             }
@@ -75,3 +75,4 @@
         }
     }
 ?>
+
